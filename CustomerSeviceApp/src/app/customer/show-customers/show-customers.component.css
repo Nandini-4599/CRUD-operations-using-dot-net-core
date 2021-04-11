@@ -1,0 +1,41 @@
+ table {
+    width: 100%;
+  }
+
+
+mat-header-cell {
+    padding-right: 10px;
+    
+   }
+
+   .one{
+     padding-left: 45px;
+   }
+
+   .two{
+     padding-left: 45px;
+   }
+
+   .three{
+     padding-left: 45px;
+   }
+
+   .notif-success{
+    color: #155724 !important; 
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+   }
+
+   .notif-danger{
+    color: red !important; 
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+
+   }
+   
+   .header-align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+

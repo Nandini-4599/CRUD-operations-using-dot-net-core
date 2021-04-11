@@ -1,0 +1,119 @@
+<div class="d-flex justify-content-between m-3">
+    <h2 style="padding-left: 350px;"><B>View Customer</B></h2>
+
+    <button style="background-color: rgb(233, 227, 227)" mat-button (click)="onClose()">
+        <mat-icon>close</mat-icon>
+    </button>
+</div>
+
+<div class="container" style="overflow: auto;height: 450px;padding-left: 170px;">
+    <form (ngSubmit)="onSubmit(myform)" #myform="ngForm" autocomplete="off">
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Customer Code</span>
+            </div>
+                <input readonly="readonly" type="number" class="form-control"
+                name="customerCode"
+                #customerCode="ngModel"
+                [(ngModel)]="service.formData.customerCode">
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Full Name</span>
+            </div>
+                <input readonly="readonly" minlength="2" type="text" class="form-control"
+                name="fullName"
+                #fullName="ngModel"
+                [(ngModel)]="service.formData.fullName">
+        </div>
+        <div class="text-left text-danger"
+        *ngIf="fullName.invalid && fullName.touched">
+        Please enter Full Name.</div>
+
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Customer Type</span>
+            </div>
+            <select [disabled]="true" id = "customerType" name="customerType" class="form-control" [(ngModel)]="service.formData.customerType">
+                <option [ngValue]="1">
+                    Gold</option>
+                    <option [ngValue]="2">Silver</option>
+                    <option [ngValue]="3">
+                        Bronze</option>
+                
+            </select>
+        </div>
+        
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Plan Name</span>
+            </div>
+                <input readonly="readonly" type="text" class="form-control"
+                name="name"
+                #name="ngModel"
+                [(ngModel)]="service.formData.name">
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Amt Due</span>
+            </div>
+           
+                 <input readonly="readonly" type="number" class="form-control"
+                name="amtDue"
+                #amtDue="ngModel"
+                [(ngModel)]="service.formData.amtDue"> 
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">First Order Date</span>
+            </div>
+            <input readonly required [matDatepicker] type="text" class="form-control"
+            name="firstOrderDate"
+            #firstOrderDate="ngModel" 
+            [(ngModel)]="service.formData.firstOrderDate">  
+            <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+             <mat-datepicker #picker></mat-datepicker>    -->
+               
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Address</span>
+            </div>
+                <input  readonly="readonly" type="text" class="form-control"
+                name="address"
+                #address="ngModel"
+                [(ngModel)]="service.formData.address">
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Pincode</span>
+            </div>
+                <input readonly="readonly" type="number" class="form-control"
+                name="pinCode"
+                #pinCode="ngModel"
+                [(ngModel)]="service.formData.pinCode">
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;" >
+            <div class="input-group-prepend" >
+                <span class="input-group-text">Active Status</span>
+            </div>
+            <input readonly="readonly" type="text" class="form-control"
+            name="isActive"
+            #pinCode="ngModel"
+            [(ngModel)]="service.formData.isActive">
+           
+        </div>
+
+
+        
+        </form>
+</div>
+

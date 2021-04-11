@@ -1,0 +1,581 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="-757490665">
+    <configuration>
+    </configuration>
+  </project>
+  <sourcecode name="CustomerController.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-02 14:34:43.113</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to customerRepository must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>26</line>
+        <index>737</index>
+        <endIndex>754</endIndex>
+        <startLine>26</startLine>
+        <startColumn>35</startColumn>
+        <endLine>26</endLine>
+        <endColumn>52</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to NotFound must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>29</line>
+        <index>851</index>
+        <endIndex>858</endIndex>
+        <startLine>29</startLine>
+        <startColumn>28</startColumn>
+        <endLine>29</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Ok must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>32</line>
+        <index>908</index>
+        <endIndex>909</endIndex>
+        <startLine>32</startLine>
+        <startColumn>24</startColumn>
+        <endLine>32</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>36</line>
+        <index>1004</index>
+        <endIndex>1013</endIndex>
+        <startLine>36</startLine>
+        <startColumn>24</startColumn>
+        <endLine>36</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to customerRepository must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>46</line>
+        <index>1237</index>
+        <endIndex>1254</endIndex>
+        <startLine>46</startLine>
+        <startColumn>39</startColumn>
+        <endLine>46</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to NotFound must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>49</line>
+        <index>1359</index>
+        <endIndex>1366</endIndex>
+        <startLine>49</startLine>
+        <startColumn>28</startColumn>
+        <endLine>49</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Ok must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>52</line>
+        <index>1416</index>
+        <endIndex>1417</endIndex>
+        <startLine>52</startLine>
+        <startColumn>24</startColumn>
+        <endLine>52</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>56</line>
+        <index>1516</index>
+        <endIndex>1525</endIndex>
+        <startLine>56</startLine>
+        <startColumn>24</startColumn>
+        <endLine>56</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>66</line>
+        <index>1759</index>
+        <endIndex>1768</endIndex>
+        <startLine>66</startLine>
+        <startColumn>24</startColumn>
+        <endLine>66</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to customerRepository must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>71</line>
+        <index>1860</index>
+        <endIndex>1877</endIndex>
+        <startLine>71</startLine>
+        <startColumn>38</startColumn>
+        <endLine>71</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to NotFound must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>75</line>
+        <index>1988</index>
+        <endIndex>1995</endIndex>
+        <startLine>75</startLine>
+        <startColumn>28</startColumn>
+        <endLine>75</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Ok must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>78</line>
+        <index>2045</index>
+        <endIndex>2046</endIndex>
+        <startLine>78</startLine>
+        <startColumn>24</startColumn>
+        <endLine>78</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>82</line>
+        <index>2144</index>
+        <endIndex>2153</endIndex>
+        <startLine>82</startLine>
+        <startColumn>24</startColumn>
+        <endLine>82</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to customerRepository must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>94</line>
+        <index>2462</index>
+        <endIndex>2479</endIndex>
+        <startLine>94</startLine>
+        <startColumn>36</startColumn>
+        <endLine>94</endLine>
+        <endColumn>53</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Ok must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>97</line>
+        <index>2589</index>
+        <endIndex>2590</endIndex>
+        <startLine>97</startLine>
+        <startColumn>32</startColumn>
+        <endLine>97</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to NotFound must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>101</line>
+        <index>2719</index>
+        <endIndex>2726</endIndex>
+        <startLine>101</startLine>
+        <startColumn>32</startColumn>
+        <endLine>101</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>107</line>
+        <index>2864</index>
+        <endIndex>2873</endIndex>
+        <startLine>107</startLine>
+        <startColumn>28</startColumn>
+        <endLine>107</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>111</line>
+        <index>2947</index>
+        <endIndex>2956</endIndex>
+        <startLine>111</startLine>
+        <startColumn>20</startColumn>
+        <endLine>111</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>122</line>
+        <index>3220</index>
+        <endIndex>3229</endIndex>
+        <startLine>122</startLine>
+        <startColumn>24</startColumn>
+        <endLine>122</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to customerRepository must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>127</line>
+        <index>3329</index>
+        <endIndex>3346</endIndex>
+        <startLine>127</startLine>
+        <startColumn>32</startColumn>
+        <endLine>127</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to NotFound must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>130</line>
+        <index>3449</index>
+        <endIndex>3456</endIndex>
+        <startLine>130</startLine>
+        <startColumn>28</startColumn>
+        <endLine>130</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Ok must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>133</line>
+        <index>3506</index>
+        <endIndex>3507</endIndex>
+        <startLine>133</startLine>
+        <startColumn>24</startColumn>
+        <endLine>133</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>137</line>
+        <index>3619</index>
+        <endIndex>3628</endIndex>
+        <startLine>137</startLine>
+        <startColumn>24</startColumn>
+        <endLine>137</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to customerRepository must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>149</line>
+        <index>3937</index>
+        <endIndex>3954</endIndex>
+        <startLine>149</startLine>
+        <startColumn>27</startColumn>
+        <endLine>149</endLine>
+        <endColumn>44</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Ok must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>151</line>
+        <index>4009</index>
+        <endIndex>4010</endIndex>
+        <startLine>151</startLine>
+        <startColumn>28</startColumn>
+        <endLine>151</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to NotFound must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>157</line>
+        <index>4280</index>
+        <endIndex>4287</endIndex>
+        <startLine>157</startLine>
+        <startColumn>32</startColumn>
+        <endLine>157</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>160</line>
+        <index>4356</index>
+        <endIndex>4365</endIndex>
+        <startLine>160</startLine>
+        <startColumn>28</startColumn>
+        <endLine>160</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to BadRequest must begin with the 'this.', 'base.', 'object.' or 'CustomerController.' or 'ControllerBase.' prefix to indicate the intended method call. </context>
+        <line>164</line>
+        <index>4444</index>
+        <endIndex>4453</endIndex>
+        <startLine>164</startLine>
+        <startColumn>20</startColumn>
+        <endLine>164</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="WeatherForecastController.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-02 18:00:38.589</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CustomerRepository.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:39:44.791</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ICustomerRepository.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:42:16.216</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CustomerViewModel.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-02 14:36:45.574</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:22:53.786</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Startup.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:52:54.912</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="WeatherForecast.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:58:29.017</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CoreDbContext.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-02 14:35:53.347</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to OnModelCreatingPartial must begin with the 'this.', 'base.', 'object.' or 'CoreDbContext.' or 'DbContext.' prefix to indicate the intended method call. </context>
+        <line>54</line>
+        <index>2010</index>
+        <endIndex>2031</endIndex>
+        <startLine>54</startLine>
+        <startColumn>13</startColumn>
+        <endLine>54</endLine>
+        <endColumn>34</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Customer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:19:34.805</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Plan.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2021-02-28 16:09:54.896</styleCop>
+      <settingsFile>2021-02-28 15:37:35.798</settingsFile>
+      <sourceFile>2021-03-01 15:22:07.127</sourceFile>
+      <parser>2021-02-28 16:09:54.896</parser>
+      <StyleCop.CSharp.DocumentationRules>2021-02-28 16:09:54.896</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1786941752</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2021-02-28 16:09:54.896</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2021-02-28 16:09:54.896</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2021-02-28 16:09:54.896</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

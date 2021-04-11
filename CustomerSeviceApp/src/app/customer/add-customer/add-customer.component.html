@@ -1,0 +1,140 @@
+<div class="d-flex justify-content-between">
+    <h2 style="padding-left: 350px;"><B>Add new Customer</B></h2>
+
+    <button style="background-color: rgb(233, 227, 227)" mat-button (click)="onClose()">
+        <mat-icon>close</mat-icon>
+    </button>
+</div>
+
+<div class="container" style="overflow: auto;height: 450px;padding-left: 170px;">
+    <form (ngSubmit)="onSubmit(myform)" #myform="ngForm" autocomplete="off">
+
+        <div class="m-3 input-group" style="width: 500px; text-align: center;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Customer Code</span>
+            </div> 
+                <input required minlength="1" type="number" class="form-control"
+                name="customerCode"
+                #customerCode="ngModel" (keypress)="omit_special_char($event)"
+                [(ngModel)]="service.formData.customerCode">
+        </div>
+        <div class="text-left text-danger"
+        *ngIf="customerCode.invalid && customerCode.touched">
+        Please enter Customer Code.</div>
+
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Full Name</span>
+            </div>
+                <input required minlength="2"  type="text" class="form-control"
+                name="fullName" (keypress)="omit_special_char($event)"
+                #fullName="ngModel" pattern="[A-Za-z ]+"
+                [(ngModel)]="service.formData.fullName">
+        </div>
+        <div class="text-left text-danger"
+        *ngIf="fullName.invalid && fullName.touched">
+        Please enter valid Full Name.</div>
+
+
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Customer Type</span>
+            </div>
+            <select id = "customerType" name="customerType" class="form-control" [(ngModel)]="service.formData.customerType">
+                <option [ngValue]="1">
+                    Gold</option>
+                    <option [ngValue]="2">Silver</option>
+                    <option [ngValue]="3">
+                        Bronze</option>
+                
+            </select>
+        </div>
+       
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Plan</span>
+            </div>
+                <select id = "planId" name="planId" class="form-control" [(ngModel)]="service.formData.planId">
+                    <option [ngValue]="1">
+                        Buy 1 Get 1</option>
+                        <option [ngValue]="2">Buy 2 Get 3</option>
+                        <option [ngValue]="3">
+                            Flat 20% Off</option>
+                    
+                </select>
+        </div>
+        
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Amt Due</span>
+            </div>
+            
+                <input required type="number" class="form-control"
+                name="amtDue"
+                #amtDue="ngModel" (keypress)="omit_special_digit($event)"
+                [(ngModel)]="service.formData.amtDue">
+        </div>
+        <div class="text-left text-danger"
+        *ngIf="amtDue.invalid && amtDue.touched">
+        Please enter due amount.</div>
+
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">First Order Date</span>
+            </div>
+            <input required [matDatepicker]="picker" type="text" class="form-control"
+            name="firstOrderDate" placeholder="firstOrderDate(DD/MM/YYYY)" [max]="todayDate"
+            #firstOrderDate="ngModel" 
+            [(ngModel)]="service.formData.firstOrderDate">  
+             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+             <mat-datepicker #picker></mat-datepicker>       
+        </div>
+        <div class="text-left text-danger"
+        *ngIf="firstOrderDate.invalid && firstOrderDate.touched">
+        Please enter date .</div>
+
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Address</span>
+            </div>
+                <input  type="text" class="form-control"
+                name="address"
+                #address="ngModel"
+                [(ngModel)]="service.formData.address">
+        </div>
+
+        <div class="m-3 input-group" style="width: 500px;">
+            <div class="input-group-prepend">
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Pincode</span>
+            </div>
+        <input required type="number" class="form-control" 
+                name="pinCode" (keypress)="omit_special_char($event)"
+                #pinCode="ngModel" maxlength="6"
+                [(ngModel)]="service.formData.pinCode">
+        </div>
+        <div class="text-left text-danger"
+        *ngIf="pinCode.invalid && pinCode.touched">
+        Please enter valid Pin Code.</div>
+        
+
+        <div class="m-3 input-group"style="width: 500px;" >
+            <div class="input-group-prepend" >
+                <span class="input-group-text" style="background-color: rgb(80, 172, 80); color: white;">Active Status</span>
+            </div>
+                <input type="checkbox" style="height: 35px;width: 20px; padding-top: 3px;" class="form-control"
+                name="isActive"
+                #isActive="ngModel"
+                [(ngModel)]="service.formData.isActive">
+           
+        </div>
+
+
+            <button class="mt-4" mat-raised-button
+            color="primary" type="submit" [disabled]="myform.invalid" mat-dialog-close="true">
+            Add Customer
+
+            </button>
+        
+        </form>
+</div>
+

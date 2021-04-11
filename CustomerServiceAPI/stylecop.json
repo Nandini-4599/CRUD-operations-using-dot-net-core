@@ -1,0 +1,38 @@
+﻿{
+    // ACTION REQUIRED: This file was automatically added to your project, but it
+    // will not take effect until additional steps are taken to enable it. See the
+    // following page for additional information:
+    //
+    // https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/EnableConfiguration.md
+
+    "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+    "settings": {
+        "documentationRules": {
+            "companyName": "",
+            "headerDecoration": "",
+            "copyrightText": "",
+            "xmlHeader": false
+        },
+        "indentation": {
+            "indentationSize": 4,
+            "tabSize": 4,
+            "useTabs": false
+        },
+        "orderingRules": {
+            "blankLinesBetweenUsingGroups": "require",
+            "systemUsingDirectivesFirst": true,
+            "usingDirectivesPlacement": "outsideNamespace"
+        },
+        "namingRules": {
+            "allowCommonHungarianPrefixes": true,
+            "allowedHungarianPrefixes": [ "has", "DTO", "LTI" ]
+        },
+        "maintainabilityRules": {
+            "topLevelTypes": [ "class", "interface", "struct", "enum" ]
+        },
+        "layoutRules": {
+            "allowConsecutiveUsings": true,
+            "newlineAtEndOfFile": "allow"
+        }
+    }
+}
