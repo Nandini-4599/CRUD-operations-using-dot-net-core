@@ -5,18 +5,22 @@
     using CustomerServiceAPI.Models;
     using CustomerServiceAPI.Repository;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
 
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase
     {
          private ICustomerRepository customerRepository;
+        private readonly ILogger<Customer> logger;
 
-        public CustomerController(ICustomerRepository customerRepository)
+        public CustomerController(ICustomerRepository customerRepository,ILogger<Customer> logger)
         {
             this.customerRepository = customerRepository;
+            this.logger = logger;
         }
-        
+
+        public string Message { get; set; }
         [HttpGet]
         [Route("GetPlans")]
         public async Task<IActionResult> GetPlans()
@@ -26,13 +30,23 @@
                 var plans = await customerRepository.GetPlans();
                 if (plans == null)
                 {
+                    Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                    logger.LogInformation(Message);
+                    logger.LogInformation("Plans not found");
                     return NotFound();
+                    
                 }
 
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogInformation("Plans found ");
                 return Ok(plans);
             }
             catch (Exception)
             {
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogInformation("Some error occured");
                 return BadRequest();
             }
         }
@@ -46,13 +60,22 @@
                 var customers = await customerRepository.GetCustomers();
                 if (customers == null)
                 {
+                    Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                    logger.LogInformation(Message);
+                    logger.LogInformation("customer not found");
                     return NotFound();
                 }
 
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogInformation("Customer found");
                 return Ok(customers);
             }
             catch (Exception)
             {
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogError("Some error occured");
                 return BadRequest();
             }
         }
@@ -63,6 +86,9 @@
         {
             if (custId == null)
             {
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogInformation($"customer id is null");
                 return BadRequest();
             }
 
@@ -72,9 +98,15 @@
 
                 if (customer == null)
                 {
+                    Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                    logger.LogInformation(Message);
+                    logger.LogInformation($"customer id {custId} not found");
                     return NotFound();
                 }
 
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogInformation($"customer id {custId} found");
                 return Ok(customer);
             }
             catch (Exception)
@@ -94,10 +126,16 @@
                     int id = await customerRepository.AddCustomer(model);
                     if (id > 0)
                     {
+                        Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                        logger.LogInformation(Message);
+                        logger.LogInformation($"Customer Added");
                         return Ok("Added Successfully");
                     }
                     else
                     {
+                        Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                        logger.LogInformation(Message);
+                        logger.LogInformation($"Error in adding customer");
                         return NotFound("Error");
                     }
                 }
@@ -130,6 +168,9 @@
                     return NotFound();
                 }
 
+                Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                logger.LogInformation(Message);
+                logger.LogInformation($"Customer Deleted");
                 return Ok("Deleted Successfully");
             }
             catch (Exception)
@@ -148,6 +189,9 @@
                 {
                     await customerRepository.UpdateCustomer(model);
 
+                    Message = $"About page visited at {DateTime.Now.ToLongTimeString()}";
+                    logger.LogInformation(Message);
+                    logger.LogInformation($"Customer Updated");
                     return Ok("Updated successfully");
                 }
                 catch (Exception ex)

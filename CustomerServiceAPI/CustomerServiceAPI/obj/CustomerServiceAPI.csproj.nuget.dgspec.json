@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\Crud operations using dot net core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj": {}
+    "C:\\Users\\HP\\Desktop\\CRUD-operations-using-dot-net-core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\Crud operations using dot net core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj": {
+    "C:\\Users\\HP\\Desktop\\CRUD-operations-using-dot-net-core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Crud operations using dot net core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\CRUD-operations-using-dot-net-core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj",
         "projectName": "CustomerServiceAPI",
-        "projectPath": "C:\\Users\\HP\\Desktop\\Crud operations using dot net core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\CRUD-operations-using-dot-net-core\\CustomerServiceAPI\\CustomerServiceAPI\\CustomerServiceAPI.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\Crud operations using dot net core\\CustomerServiceAPI\\CustomerServiceAPI\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\CRUD-operations-using-dot-net-core\\CustomerServiceAPI\\CustomerServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,6 +58,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.3, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.TraceSource": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -78,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
