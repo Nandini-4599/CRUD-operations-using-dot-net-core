@@ -12,9 +12,9 @@
     public class CustomerController : ControllerBase
     {
          private ICustomerRepository customerRepository;
-        private readonly ILogger<Customer> logger;
+        private readonly ILogger<CustomerController> logger;
 
-        public CustomerController(ICustomerRepository customerRepository,ILogger<Customer> logger)
+        public CustomerController(ICustomerRepository customerRepository,ILogger<CustomerController> logger)
         {
             this.customerRepository = customerRepository;
             this.logger = logger;
@@ -207,5 +207,8 @@
 
             return BadRequest("Unable to update");
         }
+
+            
+        
     }
 }

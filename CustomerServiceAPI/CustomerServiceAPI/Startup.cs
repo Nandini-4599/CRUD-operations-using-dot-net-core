@@ -52,12 +52,21 @@ namespace CustomerServiceAPI
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseExceptionHandler("/Error");
+            }
+
+            else
+            {
+                app.UseStatusCodePagesWithRedirects("/Error/{0}");
+                app.UseExceptionHandler("/Error");
             }
 
             app.UseHttpsRedirection();
             app.UseCors("MyBlogPolicy");
             app.UseRouting();
+
+          
 
             app.UseAuthorization();
 
